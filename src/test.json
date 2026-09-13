@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "year": 2010,
+    "rating": 8.8,
+    "description": "A thief who enters people's dreams.",
+    "poster": "https://example.com/inception.jpg",
+    "duplicate": false
+  },
+  {
+    "id": 2,
+    "title": "The Matrix",
+    "year": 1999,
+    "rating": 8.7,
+    "description": "A hacker discovers the truth about reality.",
+    "poster": "https://example.com/matrix.jpg",
+    "duplicate": false
+  },
+  {
+    "id": 3,
+    "title": "Inception",
+    "year": 2010,
+    "rating": 8.8,
+    "description": "Duplicate movie entry.",
+    "poster": "https://example.com/inception2.jpg",
+    "duplicate": true
+  },
+  {
+    "id": 4,
+    "title": "Interstellar",
+    "year": 2014,
+    "rating": 8.7,
+    "description": "Explorers travel through a wormhole in space.",
+    "poster": "https://example.com/interstellar.jpg",
+    "duplicate": false
+  },
+  {
+    "id": 5,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "rating": 9.0,
+    "description": "Batman faces a dangerous criminal mastermind.",
+    "poster": "https://example.com/darkknight.jpg",
+    "duplicate": false
+  },
+  {
+    "id": 6,
+    "title": "The Matrix",
+    "year": 1999,
+    "rating": 8.7,
+    "description": "Duplicate movie entry.",
+    "poster": "https://m.media-amazon.com/images/I/51Ttvb17dtL._SY300_SX300_QL70_FMwebp_.jpg",
+    "duplicate": true
+  }
+]
