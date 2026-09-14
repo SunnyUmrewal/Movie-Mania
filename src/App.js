@@ -14,9 +14,7 @@ import MovieList from './components/MovieList';
 
 
 const App = () => {
-    const[search, setSearch]=useState(  localStorage.getItem("search") || "" );
-
-  useEffect(() => { localStorage.setItem("search", search); }, [search]);
+    const[search, setSearch]=useState("");
 
     const[theme, setTheme]= useState("light");
 

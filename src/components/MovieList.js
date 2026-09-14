@@ -7,7 +7,7 @@ const MovieList = (props) => {
 
   const updateFeed = async (searchTerm) => {
     const apiKey=process.env.REACT_APP_API_KEY;
-    const url = `https://www.omdbapi.com/?apikey={apiKey}&s=${searchTerm}`;
+    const url = `https://www.omdbapi.com/?apikey=879602e4&s=${searchTerm}`;
 
     let data = await fetch(url);
     let parsedData = await data.json();
@@ -22,7 +22,7 @@ const MovieList = (props) => {
   };
   
   useEffect(() => {
-    updateFeed(props.search || "Avengers");
+    updateFeed(props.search || "search");
   }, [props.search]);
 
 
